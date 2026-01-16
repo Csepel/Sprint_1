@@ -1,5 +1,4 @@
 
-
 all_time = 0
 time = '1h 45m,360s,25m,30m 120s,2h 60s'
 allt = time.replace(',', ' ').split()
