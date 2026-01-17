@@ -4,11 +4,13 @@ world_champions = {
     2006: 'Италия',
     2010: 'Испания',
     2014: 'Германия',
-    2018: 'Франция',
-    2022: 'Аргентина'
+    2018: 'Франция'
 }
+world_champions[2022] = 'Аргентина'
 
-print (world_champions)
+for key, value in world_champions.items():
+        print(f"{key}-{value}")
+
 country = 'Италия'
 
 if country in world_champions.values():
